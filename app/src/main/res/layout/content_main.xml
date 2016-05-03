@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="posicion_actual"
+        android:id="@+id/cabecera" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#aaaaaa"
+        android:textColor="#000000"
+        android:id="@+id/latitud" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#aaaaaa"
+        android:textColor="#000000"
+        android:id="@+id/longitud" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:textColor="#000000"
+        android:id="@+id/precision" />
+
+    <Button android:id="@+id/activar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="string/activar" />
+
+    <Button android:id="@+id/desactivar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="string/desactivar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="string/posicion_actual"
+        android:id="@+id/direccionActual" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:textColor="#000000"
+        android:id="@+id/estadoProveedor" />
+
+</LinearLayout>
